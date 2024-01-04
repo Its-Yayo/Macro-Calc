@@ -1,5 +1,11 @@
 mod calculator;
 
+use std::io;
+
 fn main() {
-    // Soon!...
+    println!("Macro Calc: Single Calculator macro");
+
+    let mut operator = String::new()
+    println!("Type the operator [add/multiply/subtract/divide]: ");
+
 }
