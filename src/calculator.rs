@@ -1,3 +1,4 @@
+// FIXME: Check this macro
 macro_rules! calculator {
     ($operator: ident, $num1: expr, $num2: expr) => {
         match $operator {
