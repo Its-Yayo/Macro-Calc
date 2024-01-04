@@ -2,6 +2,6 @@ mod calculator;
 
 use std::io;
 
-fn main() -> None {
+fn main() {
     // Soon!...
 }
