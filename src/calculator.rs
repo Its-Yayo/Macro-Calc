@@ -5,12 +5,14 @@ macro_rules! calculator {
             "add" => $num1 + $num2,
             "multiply" => $num1 * $num2,
             "subtract" => $num1 - $num2,
-            "divide" => $num1 / $num2,
+            "divide" => {
+                if ($num2 != 0) {
+                    $num1 / $num2
+                } else {
+                    panic!("Zero Division!")
+                }
+            },
+            _ => panic!("Unknown operator: {}", $operator),
         }
     };
-}
-
-// FIXME: Check this function, it'll be useless
-fn call_this(method: &str, int_1: i32, int_2: i32) {
-    calculator!(method, int_1, int_2);
 }
