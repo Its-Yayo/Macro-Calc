@@ -10,6 +10,7 @@ macro_rules! calculator {
     };
 }
 
+// FIXME: Check this function, it'll be useless
 fn call_this(method: &str, int_1: i32, int_2: i32) {
     calculator!(method, int_1, int_2);
 }
