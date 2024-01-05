@@ -14,6 +14,17 @@ You can actually update any changes too!
 $ git pull
 ```
 
+## Build
+You need to build this project in order to run it
+```bash
+$ cargo build
+```
+
+THen u now can run it
+```bash
+$ cargo run
+```
+
 
 # License
 Obviously I didn't add a license for this project since it's only for me :))
