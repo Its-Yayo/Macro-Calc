@@ -20,7 +20,7 @@ You need to build this project in order to run it
 $ cargo build
 ```
 
-THen u now can run it
+Then u now can run it
 ```bash
 $ cargo run
 ```
