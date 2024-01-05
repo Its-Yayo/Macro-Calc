@@ -16,7 +16,7 @@ fn main() {
     let num1: f64 = num1.trim().parse().expect("Invalid number for num1");
 
     let mut num2 = String::new();
-    println!("First number!: ");
+    println!("Second number!: ");
     io::stdin().read_line(&mut num2).expect("Failed to read line");
     let num2: f64 = num2.trim().parse().expect("Invalid number for num2");
 
