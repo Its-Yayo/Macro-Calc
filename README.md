@@ -15,7 +15,7 @@ $ git pull
 ```
 
 ## Build
-You need to build this project in order to run it
+You need to build this project first
 ```bash
 $ cargo build
 ```
