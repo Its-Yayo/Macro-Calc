@@ -8,7 +8,7 @@ macro_rules! calculator {
             "multiply" => $num1 * $num2,
             "subtract" => $num1 - $num2,
             "divide" => {
-                if $num2 != 0.0 {
+                if ($num2 != 0.0) {
                     $num1 / $num2
                 } else {
                     panic!("Zero Division!")
