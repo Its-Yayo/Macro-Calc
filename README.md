@@ -15,12 +15,12 @@ $ git pull
 ```
 
 ## Build
-You need to build this project first
+Firstly u need to build this project to produce an executable
 ```bash
 $ cargo build
 ```
 
-Then u now can run it
+Now run it
 ```bash
 $ cargo run
 ```
