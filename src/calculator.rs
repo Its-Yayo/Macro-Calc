@@ -1,5 +1,3 @@
-// FIXME: Check this macro
-
 #[macro_export]
 macro_rules! calculator {
     ($operator: expr, $num1: expr, $num2: expr) => {
