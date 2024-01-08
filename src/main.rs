@@ -22,6 +22,6 @@ fn main() {
     let num2: f64 = num2.trim().parse().expect("Invalid number for num2");
 
     let result = calculator!(operator, num1, num2);
-    println!("Here's ur final result: {}", result)
+    println!("Here's ur final result: {}", result);
 
 }
