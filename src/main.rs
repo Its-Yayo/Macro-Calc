@@ -4,6 +4,7 @@ mod calculator;
 use std::io;
 
 // For next version I'll modify it in order to build a CLI tool
+// TODO: Do the above thing lol
 fn main() {
     println!("Macro Calc - Single Calculator macro");
 
