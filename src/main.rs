@@ -1,6 +1,5 @@
 #[macro_use]
 mod calculator;
-
 use std::io;
 
 // For next version I'll modify it in order to build a CLI tool
