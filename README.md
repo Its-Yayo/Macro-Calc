@@ -1,6 +1,6 @@
 # Macro-Calc
 
-Single project that handles a calculator made with Rust. I made this repo public cuz why not lmao. I use cargo to build the project (as a normal Rust dev). This project is actually made to learn Rust in a nutshell. 
+Single project that handles a macro calculator made with Rust. I made this repo public cuz why not lmao. I use cargo to build the project (as a normal Rust dev). This project is actually made to learn Rust in a nutshell. 
 
 ## Local 
 If you are an obsessive like me, you can clone this project and test it by yourself. Remember you should have [cargo](https://crates.io/) installed 
