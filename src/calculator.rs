@@ -1,3 +1,4 @@
+// Always type #[macro_export] in order to export a macro in a crate
 #[macro_export]
 macro_rules! calculator {
     ($operator: expr, $num1: expr, $num2: expr) => {
