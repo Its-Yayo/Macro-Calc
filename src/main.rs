@@ -2,6 +2,7 @@
 mod calculator;
 use std::io;
 
+
 // For next ver I'll modify it in order to build a CLI tool
 // TODO: Do the above thing lol
 fn main() {
@@ -26,5 +27,4 @@ fn main() {
 
     let result = calculator!(operator, num1, num2);
     println!("Here's ur final result: {}", result);
-
 }
